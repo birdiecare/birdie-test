@@ -37,15 +37,15 @@ in this event format:
 
 Here's a quick explanation of some of the properties:
 
-`id`: Uniquely identifies the observation  
-`visit_id`: Observations are traditionally observed during a visit between the caregiver (carer) and care recipient. This ID identifies that visit  
-`event_type`: Title we use to categorise our events.  
-`caregiver_id`: Identifies who the caregiver (carer) was that made this observation.
-`care_recipient_id`: Identifies the care recipient this observation is for.
+- `id`: Uniquely identifies the observation  
+- `visit_id`: Observations are traditionally observed during a visit between the caregiver (carer) and care recipient. This ID identifies that visit  
+- `event_type`: Title we use to categorise our events.  
+- `caregiver_id`: Identifies who the caregiver (carer) was that made this observation.
+- `care_recipient_id`: Identifies the care recipient this observation is for.
 
-The boilerplate will come with our test database loaded with these observation events.
+The database (we should have sent you credentials) contains some of these observation events, within the `events` table.
 
-#####**Display these observations (i.e. table(s), graph(s), timeline(s) or any other way you feel like) so that looking at them is valuable to a user (i.e. older adult, family member, care professional etc)."**
+Your challenge is to **display these observations** (i.e. as a table, graph, timeline or any other way/combinaison you feel like) **so that looking at it is valuable to a user** (pick one from the older adult, a family member, a care professional, etc).
 
 ## Usage
 
