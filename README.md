@@ -45,7 +45,7 @@ Here's a quick explanation of some of the properties:
 
 The boilerplate will come with our test database loaded with these observation events.
 
-#####**Display these observations (i.e. table(s), graph(s), timeline(s) or any other way you feel like) so that looking at them is valuable to a user (i.e. older adult, family member, care professional etc)."**
+##### **Display these observations (i.e. table(s), graph(s), timeline(s) or any other way you feel like) so that looking at them is valuable to a user (i.e. older adult, family member, care professional etc)."**
 
 ## Usage
 
