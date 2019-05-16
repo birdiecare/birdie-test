@@ -1,7 +1,7 @@
 # Birdie developer test.
 We would like to thank you for taking our developer test. We understand that often candidates will have many of these tests to complete. Therefore we think it's important to cut straight to important stuff. With that in mind we have gone ahead and created a boiler plate that mostly represents the kind of technical stack we work with. This saves you the time of having to create needless boiler plate code does little to demonstrate your potential as a developer.
 
-##Set up
+## Set up
 
 Here's the technical stack this boiler plate is made from.
 
