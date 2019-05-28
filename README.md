@@ -40,15 +40,20 @@ The database (we should have sent you credentials) contains some of these observ
 
 *Display the information to a family member*
 
-#### Your challenge is to use the boilerplate we gave you to create a small web application to visualize these observations, so that looking at it is valuable to a family member of this care recipient.
+#### Your challenge is to clone this repository and create a small web application to visualize these observations, so that looking at it is valuable to a family member of this care recipient.
 
-This could means presenting it in the following forms:
+This could mean presenting it in the following forms:
 
  - A table
  - A graph
  - A timeline
 
  Or any other way/combinaison of those.
+
+## Deliverables
+
+- Put your code on Github and send us the link to the repository
+- Deploying the code to a platform like [Heroku](https://heroku.com) is a great plus.
 
 ## Set up
 
