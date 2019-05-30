@@ -48,7 +48,7 @@ This could mean presenting it in the following forms:
  - A graph
  - A timeline
 
- Or any other way/combination of those.
+ Or any other way/combination of those. We are test driven here at Birdie so please make sure you write tests to validate your work.
 
 ## Deliverables
 
