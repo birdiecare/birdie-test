@@ -1,11 +1,11 @@
 # Birdie Developer Test
-We would like to thank you for taking our developer test. We understand that often candidates will have many of these tests to complete. Therefore we think it's important to cut straight to the important stuff. With that in mind we have gone ahead and created a boiler plate that mostly represents the kind of technical stack we work with. This saves you the time of having to create needless boiler plate code that does little to demonstrate your potential as a developer.
+We would like to thank you for taking our developer test. We understand that often candidates will have many of these tests to complete. Therefore we think it's important to cut straight to the important stuff. With that in mind, we've gone ahead and created a boilerplate that mostly represents the kind of technical stack we work with. This saves you from having to create needless boilerplate code that does little to demonstrate your potential as a developer.
 
 ## Context
 
-At Birdie our app allows care givers to record observations on older adults receiving care, we name them **care recipients**.
+At Birdie, our app allows care givers to record observations of older adults receiving care, we name them **care recipients**.
 
-These could be anything from the recording of mood (happy, sad, bored, confused) to what they drank today (1 pint of water). 
+These could be anything from the recording of their mood (happy, sad, bored, confused) to what they drank today (1 pint of water).
 
 Each of these observations are recorded as events in our database. Here's an example of a mood observation recorded
 in this event format:
@@ -24,13 +24,13 @@ in this event format:
 
 Here's a quick explanation of the base properties:
 
-- `id`: Uniquely identifies the observation  
-- `event_type`: Title we use to categorise our events.  
-- `visit_id`: Observations are traditionally observed during a visit between the caregiver (carer) and care recipient. This ID identifies that visit  
+- `id`: Uniquely identifies the observation.
+- `event_type`: Title we use to categorise our events.
+- `visit_id`: Observations are traditionally observed during a visit between the caregiver (carer) and care recipient. This ID identifies that visit.
 - `caregiver_id`: Identifies who the caregiver (carer) was that made this observation.
 - `care_recipient_id`: Identifies the care recipient this observation is for.
 
-On top of that, there can be **additionnal properties** based on the `event_type`:
+On top of that, there can be **additional properties** based on the `event_type`:
 
 - `mood` describes the mood of the care recipient as reported by the caregiver
 
@@ -48,7 +48,7 @@ This could mean presenting it in the following forms:
  - A graph
  - A timeline
 
- Or any other way/combination of those. We are test driven here at Birdie so plays make sure you write tests to validate your works behaviour.
+ Or any other way/combination of those. We are test driven here at Birdie so please make sure you write tests to validate your work.
 
 ## Deliverables
 
@@ -57,7 +57,7 @@ This could mean presenting it in the following forms:
 
 ## Set up
 
-Here's the technical stack this boiler plate is made from.
+Here's the technical stack this boilerplate was made with:
 
 ### Front end
 * [React](https://reactjs.org/)
