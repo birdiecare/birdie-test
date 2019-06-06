@@ -54,7 +54,7 @@ This could mean presenting it in the following forms:
 
 - Put your code on Github and send us the link to the repository
 - Deploying the code to a platform like [Heroku](https://heroku.com) is a great plus.
-- * If you are unable to deploy your code please send a recording of the application working *
+- **If you are unable to deploy your code please send a recording of the application working**
 
 ## Set up
 
