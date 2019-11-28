@@ -85,7 +85,7 @@ Here's the technical stack this boilerplate was made with:
    ```
    npm run dev
    ```
-2. Start the React app  (Run the following commands within the front-end folder)
+2. Start the React app  (Run the following commands within the `front-end` folder)
 
     a. Install the dependencies
    ```
