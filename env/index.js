@@ -1,3 +1,3 @@
 module.exports = {
-  BASE_APPLICATION: 'https://www.total-loyalty.com',
+  BASE_APPLICATION: 'https://birdie-test-dtc.netlify.app',
 };
