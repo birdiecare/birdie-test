@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mood confused is rendered is as expected 1`] = `
+<TransferWithinAStationIcon
+  color="action"
+  style={
+    Object {
+      "fontSize": 200,
+    }
+  }
+/>
+`;
+
+exports[`Mood default render is as expected 1`] = `
+<SentimentVerySatisfiedIcon
+  color="primary"
+  style={
+    Object {
+      "fontSize": 200,
+    }
+  }
+/>
+`;
+
+exports[`Mood hungry is rendered is as expected 1`] = `
+<FastfoodIcon
+  color="secondary"
+  style={
+    Object {
+      "fontSize": 200,
+    }
+  }
+/>
+`;
+
+exports[`Mood sad is rendered is as expected 1`] = `
+<SentimentVeryDissatisfiedIcon
+  color="error"
+  style={
+    Object {
+      "fontSize": 200,
+    }
+  }
+/>
+`;
+
+exports[`Mood tired is rendered is as expected 1`] = `
+<HotelIcon
+  color="primary"
+  fontSize="large"
+  style={
+    Object {
+      "fontSize": 200,
+    }
+  }
+/>
+`;
