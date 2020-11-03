@@ -51,10 +51,8 @@
     "gatsby"
   ],
   "scripts": {
-    "start": "npm run develop",
-    "build": "gatsby develop",
+    "build": "gatsby build",
     "develop": "gatsby develop",
-    "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest",
     "test:watch": "jest --watch"
