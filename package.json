@@ -52,7 +52,7 @@
   ],
   "scripts": {
     "start": "npm run develop",
-    "build": "dot-env gatsby develop",
+    "build": "gatsby develop",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
