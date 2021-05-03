@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd backend && npm run start",
+    "start": "cd backend && npm start",
     "heroku-postbuild": "cd backend && npm install && cd .. && cd front-end && npm install --only=dev && npm install && npm run build"
   },
   "repository": {
