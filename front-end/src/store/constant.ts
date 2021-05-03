@@ -1,0 +1,4 @@
+export const FETCH_ALL_EVENTS = 'FETCH_ALL_EVENTS';
+export const FETCH_USER_EVENT = 'FETCH_USER_EVENT';
+
+export const INITIATE_FETCH = 'INITIATE_FETCH';
