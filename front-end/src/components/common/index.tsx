@@ -12,6 +12,7 @@ import Table from './Table';
 import Title from './Title';
 import Input from './Input';
 import Label from './Label';
+import HeaderColumn from './HeaderColumn';
 
 export {
     Button,
@@ -27,5 +28,6 @@ export {
     Table,
     Title,
     Input,
-    Label
+    Label,
+    HeaderColumn
 }

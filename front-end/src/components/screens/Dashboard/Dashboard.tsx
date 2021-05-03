@@ -15,6 +15,7 @@ import {
     Column,
     Container,
     ErrorText,
+    HeaderColumn,
     HeaderRow,
     Logo,
     Row,
@@ -81,10 +82,10 @@ const Dashboard = ({ events, fetchEventsRequest }: Dash) => {
                     <Table>
                         <thead>
                             <HeaderRow>
-                                <Column>Caregiver Recipient</Column>
-                                <Column>Visit ID</Column>
-                                <Column>Event Type</Column>
-                                <Column>Time</Column>
+                                <HeaderColumn>Caregiver Recipient</HeaderColumn>
+                                <HeaderColumn>Visit ID</HeaderColumn>
+                                <HeaderColumn>Event Type</HeaderColumn>
+                                <HeaderColumn>Time</HeaderColumn>
                             </HeaderRow>
                         </thead>
                         <tbody>
@@ -103,7 +104,7 @@ const Dashboard = ({ events, fetchEventsRequest }: Dash) => {
                                         </Column>
                                         <Column>{payload.visit_id}</Column>
                                         <Column>{payload.event_type}</Column>
-                                        <Column>{payload.timestamp}</Column>
+                                        <Column>{new Date(payload.timestamp).toUTCString()}</Column>
                                     </BodyRow>
                                 ))}
                         </tbody>
