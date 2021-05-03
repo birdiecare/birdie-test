@@ -3,10 +3,12 @@ import { eventRouter } from "./controllers/event.controller";
 import { pingController } from "./controllers/ping";
 import * as cors from "cors";
 import * as path from "path";
+import * as dotenv from "dotenv";
 
 
 const app = express();
 
+dotenv.config();
 app.use(express.static('public'));
 app.use(cors());
 
