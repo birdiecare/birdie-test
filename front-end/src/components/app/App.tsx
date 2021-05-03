@@ -4,8 +4,7 @@ import { ErrorBoundary } from 'react-error-boundary';
 
 import ErrorFallBack from '../common/ErrorFallBack/ErrorFallBack';
 import { Loader } from '../common/Loaders/Loaders';
-
-import routes from '@App/routes';
+import routes from '../../routes';
 
 const App = () => {
   return (

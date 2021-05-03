@@ -1,0 +1,24 @@
+{
+  "name": "birdie-test",
+  "version": "1.0.0",
+  "description": "Birdie Test - Front end and Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd backend && npm run start",
+    "heroku-postbuild": "cd backend && npm install && cd .. && cd front-end && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mySuulola/birdie-test.git"
+  },
+  "author": "Oluwaseyi Peter Suulola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mySuulola/birdie-test/issues"
+  },
+  "homepage": "https://github.com/mySuulola/birdie-test#readme",
+  "dependencies": {
+    "concurrently": "^6.0.2"
+  }
+}

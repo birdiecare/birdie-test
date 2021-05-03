@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './loader.scss';
+import './loader.scss'
 
 const Buff = (props: { scale?: number }) => {
   return (

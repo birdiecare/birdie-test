@@ -1,11 +1,7 @@
 import { lazy } from 'react';
-
-const Dashboard = lazy(() =>
-  import('./components/screens/Dashboard/Dashboard'),
-);
-const Detail = lazy(() =>
-  import('./components/screens/Detail/Detail'),
-);
+import NotFound from './components/screens/NotFound';
+const Dashboard = lazy(() => import('./components/screens/Dashboard/Dashboard'));
+const Detail = lazy(() => import('./components/screens/Detail/Detail'));
 
 const routes = [
   {
@@ -20,7 +16,13 @@ const routes = [
     path: '/detail',
     component: Detail,
     exact: true,
-    protected: true,
+    protected: false,
+  },
+  {
+    title: 'Not Found',
+    path: '*',
+    component: NotFound,
+    protected: false,
   },
 ];
 

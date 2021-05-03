@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { RootState } from '@App/store/reducers';
 import { Event } from '@App/interface/event';
 import { fetchEventsRequest } from '@App/store/actions/events';
 import { Dispatch } from 'redux';
@@ -116,11 +115,11 @@ const Dashboard = ({ events, fetchEventsRequest }: Dash) => {
     );
 };
 
-const mapStateToProps = (state: RootState, ownProps: object) => {
+const mapStateToProps = (state: {events: Array<Event>} ) => {
     const { events } = state
     return { events };
 };
-const mapDispatchToProps = (dispatch: Dispatch<RootState>) => {
+const mapDispatchToProps = (dispatch: Dispatch) => {
     return {
         fetchEventsRequest: (query: Paginate) => dispatch(fetchEventsRequest(query)),
     };
