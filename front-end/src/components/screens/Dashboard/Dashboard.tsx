@@ -16,11 +16,13 @@ import {
     Container,
     ErrorText,
     HeaderRow,
+    Logo,
     Row,
     SubTitle,
     Table,
     Title
 } from '@App/components/common';
+const LogoUrl = require('../../../assets/images/logo-birdie.svg');
 
 interface Dash {
     events: Array<Event>,
@@ -50,6 +52,7 @@ const Dashboard = ({ events, fetchEventsRequest }: Dash) => {
 
     return (
         <Container>
+            <Logo src={LogoUrl} />
             <Title>Dashboard</Title>
             <SubTitle>All your records in one place</SubTitle>
             <Row>
