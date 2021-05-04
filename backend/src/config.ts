@@ -3,10 +3,10 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const configData = {
-    host: process.env.DB_HOST ?? "localhost",
-    user: process.env.DB_USER ?? "username",
-    password: process.env.DB_PASSWORD ?? "password",
-    database: process.env.DB_NAME ?? "birdietest"
+    host: "birdie-test.cyosireearno.eu-west-2.rds.amazonaws.com",
+    user: "test-read",
+    password: "xnxPp6QfZbCYkY8",
+    database: "birdietest"
   };
 
 export const query = async (sql:any, params?:any) => {

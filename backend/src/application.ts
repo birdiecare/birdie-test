@@ -5,11 +5,9 @@ import * as cors from "cors";
 import * as path from "path";
 import * as dotenv from "dotenv";
 
-
 const app = express();
 
 dotenv.config();
-app.use(express.static('public'));
 app.use(cors());
 
 app.use(pingController);
