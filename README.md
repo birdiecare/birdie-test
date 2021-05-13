@@ -1,5 +1,13 @@
 # Birdie Developer Test
-We would like to thank you for taking our developer test. We understand that often candidates will have many of these tests to complete. Therefore we think it's important to cut straight to the important stuff. With that in mind, we've gone ahead and created a boilerplate that mostly represents the kind of technical stack we work with. This saves you from having to create needless boilerplate code that does little to demonstrate your potential as a developer.
+
+We would like to thank you for taking our developer test. We understand that candidates will often have many of these tests to complete, therefore we think it's important to cut straight to the important stuff.
+
+## About this repository
+
+We've gone ahead and created a boilerplate that mostly represents the kind of technical stack we work with. The `backend/` is a barebone Express server and the `frontend/` has been generated with `npx create-react-app frontend --template typescript`. this saves you from having to create boilerplate code, but you are free to decide to use only parts of it, for example:
+
+- If you prefer to use Javascript rather than Typescript, you can use `npx create-react-app frontend`.
+- If you want to use Redux, you can use `npx create-react-app frontend --template redux` or `npx create-react-app frontend --template redux-typescript`.
 
 ## Context
 
@@ -40,13 +48,13 @@ The database (we should have sent you credentials) contains some of these observ
 
 *Display the information to a family member*
 
-#### Your challenge is to clone this repository and create a small web application to visualize these observations, so that looking at it is valuable to a family member of this care recipient.
+#### Your challenge is to clone this repository and create a small web application to visualize these observations, so that looking at it is valuable to a family member of this care recipient
 
 This could mean presenting it in the following forms:
 
- - A table
- - A graph
- - A timeline
+- A table
+- A graph
+- A timeline
 
  Or any other way/combination of those. We are test driven here at Birdie so please make sure you write tests to validate your work.
 
@@ -61,38 +69,45 @@ This could mean presenting it in the following forms:
 Here's the technical stack this boilerplate was made with:
 
 ### Front end
-* [React](https://reactjs.org/)
-* [Redux](https://redux.js.org/introduction/getting-started)
-* [TypeScript](https://www.typescriptlang.org/)
-* [Redux sagas](https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html)
-* [Styled components](https://www.styled-components.com/)
+
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/introduction/getting-started)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux sagas](https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html)
+- [Styled components](https://www.styled-components.com/)
 
 ### Back end
-* [Express](https://expressjs.com/)
-* [MySQL](https://www.mysql.com/)
-* [TypeScript](https://www.typescriptlang.org/)
+
+- [Express](https://expressjs.com/)
+- [MySQL](https://www.mysql.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## Usage
 
 1. Start the API. (Run the following commands within the `backend` folder)
 
    a. Install the dependencies
-   ```
+
+   ```bash
    npm install
    ```
-   
+
    b. Run the HTTP server (will start on port `8000`)
-   ```
+
+   ```bash
    npm run dev
    ```
+
 2. Start the React app  (Run the following commands within the `front-end` folder)
 
     a. Install the dependencies
-   ```
+
+   ```bash
    npm install
    ```
-   
+
    b. Run the application (will start on port `3000`)
-   ```
+
+   ```bash
    npm start
    ```
