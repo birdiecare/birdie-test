@@ -4,10 +4,18 @@ We would like to thank you for taking our developer test. We understand that can
 
 ## About this repository
 
-We've gone ahead and created a boilerplate that mostly represents the kind of technical stack we work with. The `backend/` is a barebone Express server and the `frontend/` has been generated with `npx create-react-app frontend --template typescript`. this saves you from having to create boilerplate code, but you are free to decide to use only parts of it, for example:
+We've gone ahead and created a boilerplate that mostly corresponds to the technical stack we use at Birdie. The `backend/` is a barebone Express server and the `frontend/` has been generated with `npx create-react-app frontend --template typescript`. This saves you from having to create boilerplate code, but you are free to decide to use only parts of it, for example:
 
 - If you prefer to use Javascript rather than Typescript, you can use `npx create-react-app frontend`.
 - If you want to use Redux, you can use `npx create-react-app frontend --template redux` or `npx create-react-app frontend --template redux-typescript`.
+
+You are also free to make other technical choices, for example:
+
+- Use Redux Thunk, Redux Observables, Redux Saga...
+- Use Express, NestJS, Loopback...
+- PostgreSQL, MySQL...
+
+Although we do encourage you to be pragmatic and prioritise delivering value over fine-tuning your technical stack.
 
 ## Context
 
